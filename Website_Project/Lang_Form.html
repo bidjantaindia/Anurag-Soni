@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+  <title>Language Form</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  
+</head>
+
+<body class="p-3 m-0 border-0 bd-example">
+  <form action="ThankYou.png">
+    <!--Language Form Submit Message-->
+
+    <h3><b><u>WELCOME TO LANGUAGE FORM</u></b></h2><br>
+
+      <!-- NAME OF CLIENT -->
+      <form class=" needs-validation was-validated" novalidate="">
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltip01" class="form-label"><b>Your Name</b></label>
+          <input type="text" class="form-control" id="validationTooltip01" value="" required="">
+          <div class="invalid-feedback">
+            Enter Your Name
+          </div>
+        </div>
+
+
+        <!-- CONTACT OF CLIENT -->
+
+        <div class="col-md-4 position-relative"><br>
+          <label for="validationTooltip02" class="form-label"><b>Your Phone Number</b></label>
+          <input type="text" class="form-control" id="validationTooltip02" value="" required="">
+          <div class="invalid-feedback">
+            Enter Phone No.
+          </div>
+        </div>
+
+
+        <!-- EMAIL OF CLIENT -->
+        <div class="col-md-4 position-relative"><br>
+          <label for="validationTooltipUsername" class="form-label"><b>Your Email ID</b></label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+            <input type="text" class="form-control" id="validationTooltipUsername"
+              aria-describedby="validationTooltipUsernamePrepend" required="">
+            <div class="invalid-feedback">
+              Please use unique and valid username.
+            </div>
+          </div>
+        </div>
+
+
+        <!-- COUNTRY OF CLIENT -->
+        <div class="col-md-3 position-relative"><br>
+          <label for="validationTooltip04" class="form-label"><b>Country</b></label>
+          <select class="form-select" id="validationTooltip04" required="">
+            <option selected="" disabled="" value="">Select One Value Please</option>
+            <option>INDIA</option>
+            <option>NEPAL</option>
+            <option>PAKISTAN</option>
+
+          </select>
+          <div class="invalid-feedback">
+            Please select a valid COUNTRY.
+          </div>
+        </div>
+
+
+        <!-- LANGUAGE OF CLIENT -->
+        <div class="col-md-3 position-relative"><br>
+          <label for="validationServer04" class="form-label"><b>LANGUAGE</b></label>
+          <select class="form-select" id="validationTooltip04" required="">
+            <option selected="" disabled="" value="">LANGUAGE OPTION</option>
+            <option>HINDI</option>
+            <option>SANSKRIT</option>
+            <option>ENGLISH</option>
+            <option>BANGLA</option>
+            <option>KANNADA</option>
+            <option>TAMIL</option>
+            <option>URDU</option>
+
+          </select>
+          <div class="invalid-feedback">
+            Please select a valid Language.
+          </div>
+        </div><br>
+
+
+        <!-- AGREEMENT -->
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3"
+              aria-describedby="invalidCheck3Feedback" required="">
+            <label class="form-check-label" for="invalidCheck3">
+              Agree to terms and conditions
+            </label>
+            <div id="invalidCheck3Feedback" class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+      </form>
+
+
+</body>
+
+</html>
+
+
